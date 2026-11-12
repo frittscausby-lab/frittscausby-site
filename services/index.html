@@ -13,17 +13,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>:root{--ink:#14171c;--ink-soft:#2a2f38;--paper:#f6f1e7;--paper-soft:#efe9dc;--rule:#d9d1bf;--gold:#a68442;--gold-soft:#c8a867;--dark:#111418}
+<style>:root{--ink:#10222d;--ink-soft:#2c4350;--paper:#f3f7f6;--paper-soft:#e4eeed;--rule:#c5d6d4;--gold:#1b7a6d;--gold-soft:#8fd3c6;--blue:#2b6ca3;--dark:#0a2a3d}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:var(--paper);color:var(--ink);font-family:'Source Sans 3',sans-serif;font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased}
 img{max-width:100%;height:auto;display:block}
 a{color:var(--gold);text-underline-offset:3px}
 a:hover{color:var(--ink)}
-.site-head{background:var(--dark);color:#d8d2c2;display:flex;align-items:center;justify-content:space-between;gap:1rem 2rem;padding:1.1rem 2rem;flex-wrap:wrap}
+.site-head{border-bottom:4px solid var(--gold);background:var(--dark);color:#d4e4ea;display:flex;align-items:center;justify-content:space-between;gap:1rem 2rem;padding:1.1rem 2rem;flex-wrap:wrap}
 .logo{font-family:'Cormorant Garamond',serif;font-size:1.9rem;letter-spacing:.06em;color:var(--paper);text-decoration:none;line-height:1}
 .logo em{font-style:italic;color:var(--gold-soft)}
 .site-head ul{list-style:none;display:flex;gap:1.6rem;flex-wrap:wrap}
-.site-head nav a{font-family:'Cormorant Garamond',serif;font-size:1.15rem;color:#d8d2c2;text-decoration:none;letter-spacing:.03em}
+.site-head nav a{font-family:'Cormorant Garamond',serif;font-size:1.15rem;color:#d4e4ea;text-decoration:none;letter-spacing:.03em}
 .site-head nav a:hover,.site-head li.active a{color:var(--gold-soft);font-style:italic}
 main.page{max-width:760px;margin:0 auto;padding:3rem 1.25rem 4rem}
 main.wide{max-width:1120px;margin:0 auto;padding:3rem 1.25rem 4rem}
@@ -36,7 +36,7 @@ p,ul{margin-bottom:1.15rem}
 ul{padding-left:1.3rem}
 .art-title{font-size:3.1rem}
 .article h3:first-of-type{font-size:1.5rem;color:var(--ink-soft);margin-top:0;margin-bottom:1.2rem}
-.caption,figcaption{font-family:'Source Sans 3',sans-serif;font-size:.85rem;line-height:1.45;color:#6d675c;margin-top:.5rem}
+.caption,figcaption{font-family:'Source Sans 3',sans-serif;font-size:.85rem;line-height:1.45;color:#566b74;margin-top:.5rem}
 figure{margin:1.8rem 0}
 figure.wide img{width:100%}
 figure.inline{float:right;width:min(46%,400px);margin:.4rem 0 1rem 1.6rem}
@@ -49,17 +49,17 @@ article::after{content:"";display:block;clear:both}
 .slideshow .slide{display:none;margin:0}
 .slideshow .slide.on{display:block}
 .slideshow .slide img{width:auto;max-width:100%;max-height:560px;object-fit:contain;margin:0 auto}
-.slideshow figcaption{color:#d8d2c2;padding:.6rem 1rem}
-.slideshow button{position:absolute;top:50%;transform:translateY(-50%);background:rgba(17,20,24,.65);color:#f6f1e7;border:0;width:2.6rem;height:3.4rem;font-size:2rem;line-height:1;cursor:pointer}
+.slideshow figcaption{color:#d4e4ea;padding:.6rem 1rem}
+.slideshow button{position:absolute;top:50%;transform:translateY(-50%);background:rgba(10,42,61,.72);color:#ffffff;border:0;width:2.6rem;height:3.4rem;font-size:2rem;line-height:1;cursor:pointer}
 .slideshow button:hover{background:var(--gold)}
 .slideshow .prev{left:0}.slideshow .next{right:0}
-.slideshow .counter{position:absolute;right:.7rem;top:.6rem;background:rgba(17,20,24,.65);color:#f6f1e7;font-family:'JetBrains Mono',monospace;font-size:.7rem;padding:.2rem .5rem;letter-spacing:.1em}
-.hero{max-width:820px;margin:1rem 0 3.5rem}
+.slideshow .counter{position:absolute;right:.7rem;top:.6rem;background:rgba(10,42,61,.72);color:#ffffff;font-family:'JetBrains Mono',monospace;font-size:.7rem;padding:.2rem .5rem;letter-spacing:.1em}
+.hero{margin:0}
 .kicker{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem}
-.hero h1{font-size:4rem}
-.lede{font-family:'Cormorant Garamond',serif;font-size:1.45rem;line-height:1.5;color:var(--ink-soft)}
-.btn{display:inline-block;background:var(--gold);color:var(--dark);font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;padding:.8rem 1.4rem;text-decoration:none}
-.btn:hover{background:var(--ink);color:var(--paper)}
+.hero h1{font-size:2.5rem;margin-bottom:.5rem}
+.lede{font-family:'Cormorant Garamond',serif;font-size:1.2rem;line-height:1.5;color:var(--ink-soft)}
+.btn{display:inline-block;background:var(--gold);color:#fff;font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;padding:.8rem 1.4rem;text-decoration:none}
+.btn:hover{background:var(--blue);color:#fff}
 .clips h2{border-bottom:2px solid var(--ink);padding-bottom:.5rem;margin-top:0}
 .sub{color:var(--ink-soft);margin:.8rem 0 1.6rem}
 .clip-section h3{font-family:'JetBrains Mono',monospace;font-style:normal;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin:2.4rem 0 1rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem}
@@ -68,7 +68,7 @@ article::after{content:"";display:block;clear:both}
 .card .thumb{aspect-ratio:3/2;overflow:hidden;background:var(--paper-soft);margin-bottom:.8rem}
 .card .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
 .card:hover .thumb img{transform:scale(1.03)}
-.card .thumb.ph{background:linear-gradient(140deg,#8e7553,#3c2f1e)}
+.card .thumb.ph{background:linear-gradient(140deg,#2b6ca3,#0a2a3d)}
 .card h4{font-size:1.45rem;margin-bottom:.3rem}
 .card:hover h4{color:var(--gold)}
 .card p{font-size:.95rem;line-height:1.5;color:var(--ink-soft);margin:0}
@@ -76,11 +76,11 @@ article::after{content:"";display:block;clear:both}
 .service-grid li{background:var(--paper-soft);border-left:3px solid var(--gold);padding:.9rem 1.1rem;font-family:'Cormorant Garamond',serif;font-size:1.3rem}
 blockquote{border-left:3px solid var(--gold);padding:.2rem 0 .2rem 1.3rem;margin:1.8rem 0}
 blockquote p{font-family:'Cormorant Garamond',serif;font-size:1.3rem;line-height:1.5;font-style:italic;margin-bottom:.5rem}
-blockquote footer{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#6d675c}
-.site-foot{background:var(--dark);color:#8a8578;padding:2rem;text-align:center;font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase}
+blockquote footer{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#566b74}
+.site-foot{background:var(--dark);color:#8fa8b3;padding:2rem;text-align:center;font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase}
 .foot-links{display:flex;gap:1.4rem;justify-content:center;flex-wrap:wrap;margin-bottom:.9rem}
-.site-foot a{color:#d8d2c2;text-decoration:none}.site-foot a:hover{color:var(--gold-soft)}
-@media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}h1,.art-title{font-size:2.3rem}.hero h1{font-size:2.9rem}}
+.site-foot a{color:#d4e4ea;text-decoration:none}.site-foot a:hover{color:var(--gold-soft)}
+@media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}h1,.art-title{font-size:2.3rem}.hero h1{font-size:2.2rem}.top{grid-template-columns:1fr}}
 @media(max-width:560px){.grid{grid-template-columns:1fr}figure.inline{float:none;width:100%;max-width:400px;margin:1.4rem 0}.site-head{padding:1rem 1.25rem}.service-grid{grid-template-columns:1fr}}
 
 figure.portrait{float:right;width:min(38%,260px);margin:.3rem 0 1rem 1.8rem}
@@ -99,7 +99,23 @@ ul.selected a{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weig
 .service-grid .thumb img{width:100%;height:100%;object-fit:cover}
 .service-grid li.has-img span{display:block;padding:.7rem 1rem;border-left:3px solid var(--gold)}
 
-.service-grid .thumb.ph{background:linear-gradient(140deg,#8e7553,#3c2f1e)}
+.service-grid .thumb.ph{background:linear-gradient(140deg,#2b6ca3,#0a2a3d)}
+
+figure.tall{float:right;width:min(40%,360px);margin:.4rem 0 1rem 1.6rem}
+figure.tall.lead{float:right;max-width:none}
+
+.service-grid li span a{color:inherit;text-decoration:none}
+.service-grid li span a:hover{color:var(--gold)}
+.static h2[id]{scroll-margin-top:1rem}
+.top{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:2.5rem;align-items:start;margin:0 0 3rem;padding-bottom:2.5rem;border-bottom:1px solid var(--rule)}
+.side{background:var(--paper-soft);border-top:3px solid var(--gold);padding:1.1rem 1.3rem 1.2rem}
+.side h2{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:500;margin:1rem 0 .5rem}
+.side h2:first-child{margin-top:0}
+.side ul{list-style:none;padding:0;margin:0}
+.side li{border-bottom:1px solid var(--rule);padding:.28rem 0;margin:0}
+.side li:last-child{border-bottom:0}
+.side a{font-family:'Cormorant Garamond',serif;font-size:1.12rem;color:var(--ink);text-decoration:none;line-height:1.3;display:block}
+.side a:hover{color:var(--gold);font-style:italic}
 </style>
 </head>
 <body>
@@ -109,13 +125,26 @@ ul.selected a{font-family:'Cormorant Garamond',serif;font-size:1.25rem;font-weig
 </header>
 <main class="page">
 <article class="static"><h1>Services</h1>
-<p>From a single property description to a long-term content partnership, the work is the same: clear, specific, and written to hold the reader's attention. Services include real estate and architectural narratives, ghostwriting, conference-to-content articles, financial writing, press releases, advertorials, video scripts, and business profiles. Inquiries welcome via the Contact page.</p><ul class="service-grid"><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-press-releases-laptop-news.jpg" width="1600" height="2400" alt="A laptop showing a news website" loading="lazy"></div><span>Press Releases</span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-ghostwriting-typewriter.jpg" width="1600" height="1066" alt="An antique Underwood typewriter on a wooden desk" loading="lazy"></div><span>Ghostwriting</span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-sponsored-content-laptops.jpg" width="1600" height="1063" alt="Two people working on laptops at a small table with a plant" loading="lazy"></div><span>Sponsored Content</span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-video-scripts-script.jpg" width="1600" height="2400" alt="A person marking up a printed video script with a pen" loading="lazy"></div><span>Video Scripts</span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-conference-to-content-auditorium.jpg" width="1600" height="1066" alt="Two speakers addressing a packed auditorium" loading="lazy"></div><span>Conference to Content</span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-business-profiles-tablet.jpg" width="1600" height="793" alt="A tablet showing an article beside a folded financial newspaper" loading="lazy"></div><span>Business Profiles</span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-property-descriptions-villa-pool.jpg" width="1600" height="1061" alt="A modern white villa behind a turquoise pool" loading="lazy"></div><span>Property Descriptions</span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-architectural-narratives-brick-manor.jpg" width="1600" height="1200" alt="A red-brick manor house reflected in a pond" loading="lazy"></div><span>Architectural Narratives</span></li></ul>
-<h2>Conference to Content</h2>
+<p>Whether the assignment is a single property description or a long-term content partnership, the standard is the same: clear, specific writing that holds the reader's attention.</p><ul class="service-grid"><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-press-releases-laptop-news.jpg" width="1600" height="2400" alt="A laptop showing a news website" loading="lazy"></div><span><a href="#press-releases">Press Releases</a></span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-ghostwriting-typewriter.jpg" width="1600" height="1066" alt="An antique Underwood typewriter on a wooden desk" loading="lazy"></div><span><a href="#ghostwriting">Ghostwriting</a></span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-sponsored-content-laptops.jpg" width="1600" height="1063" alt="Two people working on laptops at a small table with a plant" loading="lazy"></div><span><a href="#sponsored-content">Sponsored Content</a></span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-video-scripts-script.jpg" width="1600" height="2400" alt="A person marking up a printed video script with a pen" loading="lazy"></div><span><a href="#video-scripts">Video Scripts</a></span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-conference-to-content-auditorium.jpg" width="1600" height="1066" alt="Two speakers addressing a packed auditorium" loading="lazy"></div><span><a href="#conference-to-content">Conference to Content</a></span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-business-profiles-tablet.jpg" width="1600" height="793" alt="A tablet showing an article beside a folded financial newspaper" loading="lazy"></div><span><a href="#business-profiles">Business Profiles</a></span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-property-descriptions-villa-pool.jpg" width="1600" height="1061" alt="A modern white villa behind a turquoise pool" loading="lazy"></div><span><a href="#property-descriptions">Property Descriptions</a></span></li><li class="has-img"><div class="thumb"><img src="/frittscausby-site/images/services-architectural-narratives-brick-manor.jpg" width="1600" height="1200" alt="A red-brick manor house reflected in a pond" loading="lazy"></div><span><a href="#architectural-narratives">Architectural Narratives</a></span></li></ul>
+<h2 id="press-releases">Press Releases</h2>
+<p>This service includes writing the release, building a targeted list of local and regional media contacts and pitching each one individually. I send every pitch myself, with a note written for that editor or reporter, since a release sent in bulk is easy to ignore. Coverage is decided by the newsroom, so placement cannot be promised. A report at the end lists every outlet contacted and any coverage that resulted.</p>
+<h2 id="ghostwriting">Ghostwriting</h2>
+<p>Ghostwriting covers bylined articles, LinkedIn posts and executive thought leadership, along with legal content for law firms. Each piece starts with an interview, because the ideas and expertise have to come from the person whose name appears on the work. I supply the structure, research and wording, then revise until the named author approves the final draft. Without a real conversation behind it, a ghostwritten piece reads as generic, which is why the interview comes first.</p>
+<h2 id="sponsored-content">Sponsored Content</h2>
+<p>Sponsored content includes branded articles for businesses, as well as press kits for charities, nonprofits and events. I interview the people involved, research the subject and write the piece to read as a story and not as an advertisement. Every article is clearly labeled as sponsored. The label does not weaken a piece that gives readers something useful, which means real sources, specific details and a clear account of what the organization does.</p>
+<h2 id="video-scripts">Video Scripts</h2>
+<p>I write scripts for YouTube-style community and lifestyle videos, the kind that introduce a neighborhood, a town or a way of living to viewers who may never have visited. Each script is written to be spoken, with short sentences, natural pauses and notes on what should appear on screen. A script that reads well on the page can sound stiff out loud, so I read every draft aloud before sending it. A number of completed scripts are available as samples.</p>
+<h2 id="conference-to-content">Conference to Content</h2>
 <p>This service includes in-person attendance at your conference, where I create a recording, take notes and develop articles from the perspective of the speaker. Transcripts can have significant errors resulting from acronyms, regional accents and the context of the event. Being there helps to ensure the accuracy of the content, which I refine by adding transitions, links, research and organization if necessary.</p>
+<h2 id="business-profiles">Business Profiles</h2>
+<p>A business profile is an article about a company or its founder, built from an interview and research. I look for the details that set the subject apart, such as how the business started, what it does differently and where it is headed. The finished piece can be used on a website, in a media kit or in a pitch to an editor. A profile is only as good as the interview, so I ask for at least one unhurried conversation with the subject.</p>
+<h2 id="property-descriptions">Property Descriptions</h2>
+<p>Property descriptions are written from the listing details, photographs, floor plans and a conversation with the agent whenever possible. I focus on architecture, materials, light and setting, and I leave out the stock phrases that make one listing sound like every other. The tone is aspirational without becoming a sales pitch. Length is often limited by the MLS or a brochure layout, so I can provide a full version along with a shorter one that fits the character count.</p>
+<h2 id="architectural-narratives">Architectural Narratives</h2>
+<p>An architectural narrative is the long-form story of a landmark property, covering its design, the architect and builders, the site and the history of the home. I draw on interviews, plans, public records and any archives the owner or agent can share. The finished piece can support a press pitch, a brochure, a website or a listing presentation. Details that cannot be verified, such as an uncertain attribution to a well-known architect, are either confirmed or omitted.</p>
 <h2>Selected Experience</h2>
-<p>Much of the most impactful work happens behind the scenes. As a content strategist for Berkshire Hathaway HomeServices California Properties, the pitch summaries and editorial frameworks I have created directly informed features in Robb Report.</p>
-<p>The research, narrative angle, and market context become the blueprint for writers of the publication builds. It's a different skill than byline writing, one that's closer to producing.</p>
-<p>Additional ghostwriting work includes nearly a decade of creating sponsored content for a wide range of businesses for the Wilmington Business Journal, and ongoing legal content for Ward and Smith, one of North Carolina's leading regional law firms.</p></article>
+<p>Much of my work is published without my name attached. Since 2008, I have handled public relations and copywriting as a contractor and content strategist for Berkshire Hathaway HomeServices California Properties, a brokerage with thousands of agents across Southern California. The pitch summaries and editorial frameworks I write there have informed features in Robb Report and Mansion Global. Those articles carry the bylines of the publications' own writers, who work from the research, narrative angle and market context I supply. It is a different skill from byline writing, and one closer to producing.</p>
+<p>My ghostwriting also includes nearly a decade of sponsored content written for a wide range of businesses for the Wilmington Business Journal, along with ongoing legal content for Ward and Smith, P.A., one of North Carolina's leading regional law firms.</p></article>
 </main>
 <footer class="site-foot">
   <div class="foot-links">
