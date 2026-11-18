@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 580" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0a2a3d"/><stop offset="100%" stop-color="#1b7a6d"/></linearGradient></defs>
+<rect width="1024" height="580" fill="url(#g)"/>
+<text x="512" y="240" text-anchor="middle" fill="#fafcfb" font-family="Cormorant Garamond, Georgia, serif" font-size="90" font-style="italic" font-weight="500">Published in</text>
+<text x="512" y="360" text-anchor="middle" fill="#8fd3c6" font-family="JetBrains Mono, monospace" font-size="86" letter-spacing="12">INMAN</text>
+<text x="512" y="430" text-anchor="middle" fill="#d4e4ea" font-family="JetBrains Mono, monospace" font-size="26" letter-spacing="8">REAL ESTATE NEWS</text>
+</svg>
