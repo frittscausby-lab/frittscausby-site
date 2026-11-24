@@ -125,6 +125,11 @@ figure.tall.lead{float:right;max-width:none}
 @media(max-width:560px){.site-head ul{padding:0}}
 main p,main li,article p,article li{overflow-wrap:anywhere}
 .static ul.service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.static ul.service-grid li{min-width:0;overflow-wrap:normal}@media(max-width:359px){.static ul.service-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* wide screens: scale type and widen columns so large monitors don't show a thin strip */
+@media(min-width:1400px){html,body{font-size:18.5px}main.page{max-width:880px}main.wide{max-width:1280px}.top{grid-template-columns:minmax(0,1fr) 330px}figure.portrait{width:min(38%,290px)}figure.inline{width:min(46%,440px)}figure.tall{width:min(40%,400px)}.slideshow .slide img{max-height:640px}.site-head{padding:1.2rem 2.5rem}}
+@media(min-width:1800px){html,body{font-size:20px}main.page{max-width:980px}main.wide{max-width:1440px}.top{grid-template-columns:minmax(0,1fr) 360px}figure.portrait{width:min(38%,320px)}figure.inline{width:min(46%,480px)}figure.tall{width:min(40%,440px)}.slideshow .slide img{max-height:720px}.site-head{padding:1.3rem 3rem}}
+@media(min-width:2300px){html,body{font-size:22px}main.page{max-width:1080px}main.wide{max-width:1640px}.top{grid-template-columns:minmax(0,1fr) 400px}figure.portrait{width:min(38%,350px)}figure.inline{width:min(46%,540px)}figure.tall{width:min(40%,480px)}.slideshow .slide img{max-height:820px}.site-head{padding:1.4rem 3.5rem}}
 </style>
 </head>
 <body>
