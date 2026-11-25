@@ -1,0 +1,12 @@
+/* ---------- Share buttons ---------- */
+.share-bar { clear: both; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 1.5rem 0 0; }
+.share-bar.share-end { margin: 2.5rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--rule, #c5d6d4); }
+.share-label { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--ink-soft, #5b5650); margin-right: 0.4rem; }
+.share-btn { display: inline-flex; align-items: center; gap: 0.4rem; font-family: 'JetBrains Mono', monospace; font-size: 0.66rem;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink, #14171c); background: transparent;
+  border: 1px solid var(--rule, #d9d2c3); padding: 0.5rem 0.75rem; text-decoration: none; cursor: pointer; line-height: 1; }
+.share-btn:hover { border-color: var(--gold, #b8903f); color: var(--gold, #b8903f); }
+.share-btn svg { width: 14px; height: 14px; fill: currentColor; }
+.share-note { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1rem; color: var(--ink-soft, #5b5650); width: 100%; min-height: 1.2em; }
+.share-bar.share-top { margin: 0.4rem 0 1.6rem; }
